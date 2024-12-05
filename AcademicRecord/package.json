@@ -1,0 +1,69 @@
+{
+  "name": "dmatrix",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "assert": "^2.1.0",
+    "bootstrap": "^5.3.3",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "constants": "^0.0.2",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.1",
+    "dmatrix": "file:",
+    "gsap": "^3.6.1",
+    "http": "^0.0.1-security",
+    "https-browserify": "^1.0.0",
+    "ipfs-api": "^26.1.2",
+    "ipfs-http-client": "^49.0.4",
+    "node-polyfill-webpack-plugin": "^4.0.0",
+    "node-sass": "^9.0.0",
+    "os-browserify": "^0.3.0",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.3.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.1",
+    "sass": "^1.81.0",
+    "stream": "^0.0.3",
+    "stream-browserify": "^3.0.0",
+    "text-encoding": "^0.7.0",
+    "url": "^0.11.4",
+    "util": "^0.12.5",
+    "web-vitals": "^1.1.1",
+    "web3": "^4.15.0",
+    "web3modal": "^1.9.3"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
